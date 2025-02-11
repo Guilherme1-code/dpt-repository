@@ -1,7 +1,8 @@
-version: 1 
+version: 2
 
 sources:
- -name: gz_raw_data
- tables :
-  - name: raw_ship
-  - name: raw_sales
+ - name: gz_raw_data
+   tables :
+     - name: raw_ship
+       description: ship table sobre algo
+     - name: raw_sales
