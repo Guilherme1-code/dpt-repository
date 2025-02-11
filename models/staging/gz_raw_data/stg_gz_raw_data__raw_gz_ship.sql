@@ -13,10 +13,10 @@ renamed as (
         shipping_fee,
         shipping_fee_1,
         logcost,
-        ship_cost
+        CAST(ship_cost as FLOAT64) 
 
     from source
-
+     WHERE shipping_fee
 )
 
 select * from renamed
