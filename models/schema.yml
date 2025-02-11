@@ -6,4 +6,9 @@ sources:
     - name: raw_gz_ship
       description: ship table sobre algo
     - name: raw_gz_product
+      description: diz-me o preço de cada product_id
     - name: raw_gz_sales
+      description: dá-me informações sobre as vendas 
+      tests:
+        - unique:
+            column_name: "(products_id)"
