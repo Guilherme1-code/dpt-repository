@@ -3,7 +3,7 @@ version: 2
 sources:
  - name: gz_raw_data
    tables:
-    - name: raw_gz_shipp
+    - name: raw_gz_ship
       description: ship table sobre algo
     - name: raw_gz_product
     - name: raw_gz_sales
