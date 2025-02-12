@@ -2,7 +2,7 @@ version: 2
 
 sources:
    - name: raw
-     schema: gz_raw_data
+     schema: gz_raw_datas
      tables:
        - name: sales
          identifier: raw_gz_sales
@@ -93,7 +93,7 @@ models:
        - unique
        - not_null
 
-  - name: shipt
+  - name: ship
     description: shipping data for Greenweez orders
     columns:
      - name: orders_id
