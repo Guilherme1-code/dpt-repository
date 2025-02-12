@@ -84,7 +84,7 @@ sources:
              description: date of purchase
 
 models:
-  - name: stg_gz_raw_data__raw_gz_product.sql
+  - name: product
     description: products of Greenweez
     columns:
     - name: products_id
@@ -93,7 +93,7 @@ models:
        - unique
        - not_null
 
-  - name: stg_gz_raw_data__raw_gz_ship.sql
+  - name: shipt
     description: shipping data for Greenweez orders
     columns:
      - name: orders_id
